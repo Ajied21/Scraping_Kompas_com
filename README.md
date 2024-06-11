@@ -40,6 +40,32 @@ Anda dapat menginstal modul-modul tersebut menggunakan pip.
 
 6. **Menyimpan Data ke File CSV**: Simpan DataFrame ke dalam file CSV untuk analisis lebih lanjut.
 
+## Output
+
+Output dari skrip ini mencakup dua format utama: DataFrame pandas dan JSON.
+
+1. **DataFrame Pandas**: Ini adalah struktur data yang digunakan dalam Python untuk menganalisis dan memanipulasi data tabular. Dalam konteks ini, DataFrame digunakan untuk menyimpan informasi yang di-scrape dari Kompas.com. Setiap baris DataFrame mewakili satu artikel berita dan kolomnya berisi informasi seperti:
+   - Tanggal scraping: Waktu ketika scraping dilakukan.
+   - Nama portal berita: Nama portal berita (dalam hal ini, "kompas_com").
+   - Tanggal rilis berita: Tanggal rilis dari berita.
+   - Judul Berita: Judul dari berita.
+   - URL Berita: URL lengkap dari berita.
+   - Kata sering muncul: Kata-kata yang sering muncul dalam berita setelah mengabaikan kata-kata yang umum.
+
+   Informasi ini diorganisir dalam bentuk tabel yang memudahkan untuk ditampilkan dan dianalisis.
+
+2. **JSON (JavaScript Object Notation)**: Ini adalah format data yang digunakan untuk pertukaran data yang ringan dan mudah dibaca oleh manusia. Output JSON dari skrip ini berisi array objek, di mana setiap objek mewakili satu artikel berita dan memiliki properti seperti:
+   - Tanggal scraping
+   - Nama portal berita
+   - Tanggal rilis berita
+   - Judul Berita
+   - URL Berita
+   - Kata sering muncul
+
+   Informasi ini diorganisir dalam format yang mudah dibaca oleh mesin dan dapat dengan mudah diproses oleh aplikasi lain yang memerlukan data tersebut.
+
+Dengan menggunakan DataFrame pandas dan JSON, informasi yang di-scrape dari Kompas.com dapat disimpan, diakses, dan dianalisis lebih lanjut sesuai kebutuhan pengguna.
+
 ## Kode Lengkap
 
 Lihat contoh kode lengkap di dalam script Python untuk implementasi lebih rinci.
