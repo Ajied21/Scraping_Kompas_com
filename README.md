@@ -1,6 +1,6 @@
-# Web Scraping Kompas Jakarta Articles
+# Web Scraping Kompas.com Articles
 
-![Kompas Logo](https://algorit.ma/wp-content/uploads/2023/02/LOGO-KOMPAS.COM-WARNA-01-2-300x74.png)
+![Kompas Logo] <img src="https://algorit.ma/wp-content/uploads/2023/02/LOGO-KOMPAS.COM-WARNA-01-2-300x74.png" alt="Kompas Logo" width="500">
 
 Kompas.com adalah salah satu portal berita terkemuka di Indonesia yang menyediakan berita terkini dan terpercaya dari berbagai bidang, termasuk politik, ekonomi, olahraga, teknologi, hiburan, dan lainnya. 
 Situs ini dikenal karena kualitas jurnalistiknya yang tinggi dan cakupan berita yang luas, mencakup berita nasional dan internasional. 
